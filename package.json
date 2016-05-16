@@ -1,0 +1,19 @@
+{
+  "name": "RevStack.Commerce.PaymentProcessor",
+  "version": "1.0.0",
+  "description": "RevStack.Commerce payment processor providers",
+  "main": "RevStack.Commerce.PaymentProcessor.sln",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RevStack/Commerce.PaymentProcessor.git"
+  },
+  "author": "S. Francis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RevStack/Commerce.PaymentProcessor/issues"
+  },
+  "homepage": "https://github.com/RevStack/Commerce.PaymentProcessor"
+}
