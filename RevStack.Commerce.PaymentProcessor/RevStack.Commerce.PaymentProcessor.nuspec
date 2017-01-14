@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RevStack.Commerce.PaymentProcessor</id>
+    <version>1.0.1</version>
+    <title>RevStack.Commerce.PaymentProcessor</title>
+    <authors>Scott Francis, MIS Interactive</authors>
+    <owners>D. Sheets, S. Francis</owners>
+    <licenseUrl>https://github.com/RevStack/Commerce.PaymentProcessor/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/RevStack/Commerce.PaymentProcessor.git</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>RevStack.Commerce payment processor providers</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>RevStack Commerce Payment Processor</tags>
+  </metadata>
+</package>
