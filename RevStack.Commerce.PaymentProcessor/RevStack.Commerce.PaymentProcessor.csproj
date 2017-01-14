@@ -30,18 +30,65 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="RevStack.Commerce">
-      <HintPath>\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Commerce\RevStack.Commerce\bin\Release\RevStack.Commerce.dll</HintPath>
+    <Reference Include="AutoMapper, Version=4.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="RevStack.Mvc">
-      <HintPath>\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Mvc\bin\Release\RevStack.Mvc.dll</HintPath>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="RevStack.Payment">
-      <HintPath>\\Mac\Home\Documents\Development\mono\RevStack\updated\Payment\RevStack.Payment\bin\Release\RevStack.Payment.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RevStack.Commerce, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RevStack.Commerce.1.0.2\lib\net46\RevStack.Commerce.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RevStack.Configuration, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RevStack.Configuration.1.0.1\lib\net46\RevStack.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RevStack.Cryptography, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RevStack.Cryptography.1.0.0\lib\net46\RevStack.Cryptography.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RevStack.Identity, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RevStack.Identity.1.0.1\lib\net46\RevStack.Identity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RevStack.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RevStack.Mvc.1.0.0\lib\net46\RevStack.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RevStack.Net, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RevStack.Net.1.0.1\lib\net46\RevStack.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RevStack.Notification, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RevStack.Notification.1.0.3\lib\net46\RevStack.Notification.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RevStack.Pattern, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RevStack.Pattern.1.0.0\lib\net46\RevStack.Pattern.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RevStack.Payment, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RevStack.Payment.1.0.0\lib\net46\RevStack.Payment.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -53,6 +100,9 @@
     <Compile Include="AuthorizeNet\AuthorizeNet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test\Test.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
